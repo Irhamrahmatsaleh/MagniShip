@@ -1,10 +1,10 @@
-package com.shipbigger.backend.service;
+package com.magniship.backend.service;
 // Package sesuai folder
 
 import org.springframework.stereotype.Service;
 
-import com.shipbigger.backend.entity.Transaksi;
-import com.shipbigger.backend.repository.TransaksiRepository;
+import com.magniship.backend.entity.Transaksi;
+import com.magniship.backend.repository.TransaksiRepository;
 
 import java.util.List;
 

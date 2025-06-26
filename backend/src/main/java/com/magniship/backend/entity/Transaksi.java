@@ -1,4 +1,4 @@
-package com.shipbigger.backend.entity;
+package com.magniship.backend.entity;
 
 import jakarta.persistence.*;
 

@@ -1,9 +1,9 @@
-package com.shipbigger.backend.controller;
+package com.magniship.backend.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-import com.shipbigger.backend.entity.Transaksi;
-import com.shipbigger.backend.service.TransaksiService;
+import com.magniship.backend.entity.Transaksi;
+import com.magniship.backend.service.TransaksiService;
 
 import java.util.List;
 

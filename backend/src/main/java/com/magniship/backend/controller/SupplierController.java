@@ -1,9 +1,9 @@
-package com.shipbigger.backend.controller;
+package com.magniship.backend.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-import com.shipbigger.backend.entity.Supplier;
-import com.shipbigger.backend.repository.SupplierRepository;
+import com.magniship.backend.entity.Supplier;
+import com.magniship.backend.repository.SupplierRepository;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-# ShipBigger
+# MagniShip
 
-**ShipBigger** adalah sistem manajemen import dan export barang terintegrasi untuk perusahaan distribusi modern.
+**MagniShip** adalah sistem manajemen import dan export barang terintegrasi untuk perusahaan distribusi modern.
 
 ## Fitur Utama
 
@@ -35,4 +35,4 @@
 
 ---
 
-**ShipBigger** — Solusi distribusi barang dan logistik modern untuk pertumbuhan bisnismu.
+**MagniShip** — Solusi distribusi barang dan logistik modern untuk pertumbuhan bisnismu.

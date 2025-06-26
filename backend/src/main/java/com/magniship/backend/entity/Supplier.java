@@ -1,4 +1,4 @@
-package com.shipbigger.backend.entity;
+package com.magniship.backend.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Customer {
+public class Supplier {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;

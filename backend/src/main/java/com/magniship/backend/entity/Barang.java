@@ -1,4 +1,4 @@
-package com.shipbigger.backend.entity;
+package com.magniship.backend.entity;
 // Deklarasi package sesuai folder
 
 import jakarta.persistence.Entity;
@@ -48,4 +48,42 @@ public class Barang {
   public void setStok(Integer stok) {
     this.stok = stok;
   }
+
+  private Double harga;
+  private String fotoUrl; // URL foto barang (Cloudinary/dll)
+  private String videoUrl; // URL video barang (YouTube/Cloudinary/opsional)
+  private String deskripsi; // Deskripsi detail barang
+
+  public Double getHarga() {
+    return harga;
+  }
+
+  public void setHarga(Double harga) {
+    this.harga = harga;
+  }
+
+  public String getFotoUrl() {
+    return fotoUrl;
+  }
+
+  public void setFotoUrl(String fotoUrl) {
+    this.fotoUrl = fotoUrl;
+  }
+
+  public String getVideoUrl() {
+    return videoUrl;
+  }
+
+  public void setVideoUrl(String videoUrl) {
+    this.videoUrl = videoUrl;
+  }
+
+  public String getDeskripsi() {
+    return deskripsi;
+  }
+
+  public void setDeskripsi(String deskripsi) {
+    this.deskripsi = deskripsi;
+  }
+
 }

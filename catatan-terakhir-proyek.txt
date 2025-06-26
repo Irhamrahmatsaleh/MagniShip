@@ -1,0 +1,18 @@
+**Catatan progres terakhir MagniShip (per hari ini):**
+
+- **Backend (Spring Boot + PostgreSQL):**
+  - Struktur CRUD lengkap: barang, supplier, customer, transaksi, relasi antar entity sudah selesai.
+  - Validasi dan dokumentasi API dengan Swagger UI sudah tersedia.
+  - Fungsi analitik (produk terlaris dsb) sudah direncanakan, belum diimplementasi.
+  - Perubahan package dan nama folder sudah diubah menjadi `shipbigger`.
+  - Repo sudah di-upload ke GitHub private, branch utama: `main`.
+  - File sensitif (`application.properties`) sudah di-.gitignore.
+  - Frontend **belum dikerjakan**; fokus saat ini adalah menyelesaikan dan mematangkan backend sampai benar-benar stabil.
+
+---
+
+**Selanjutnya:**
+- Selesaikan endpoint analitik (produk terlaris, produk kurang laku, dsb) di backend.
+- Setelah backend stabil, baru mulai pengembangan frontend (dashboard admin, dst).
+
+---
