@@ -45,7 +45,6 @@ public class UserCustomer {
 
   private LocalDateTime updatedAt = LocalDateTime.now();
 
-  // Getter & Setter
   public Long getId() {
     return id;
   }
@@ -116,6 +115,14 @@ public class UserCustomer {
 
   public void setFotoKtpUrl(String fotoKtpUrl) {
     this.fotoKtpUrl = fotoKtpUrl;
+  }
+
+  public Customer getCustomer() {
+    return customer;
+  }
+
+  public void setCustomer(Customer customer) {
+    this.customer = customer;
   }
 
   public boolean isActive() {

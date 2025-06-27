@@ -10,60 +10,43 @@ public class Admin {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
-  // Primary key auto increment
 
   @Column(nullable = false)
   private String nama;
-  // Nama lengkap admin
 
   private String alamat;
-  // Alamat lengkap
 
   private LocalDate tanggalLahir;
-  // Tanggal lahir
 
   @Column(unique = true, nullable = false, length = 20)
   private String nik;
-  // Nomor KTP/NIK (unik & wajib)
 
   @Column(unique = true, nullable = false, length = 20)
   private String noHp;
-  // Nomor WhatsApp (unik & wajib)
 
   @Column(unique = true, nullable = false)
   private String email;
-  // Email (unik & wajib)
 
   @Column(nullable = false)
   private String passwordHash;
-  // Hash password (wajib)
 
   @Column(length = 512)
   private String fotoDiriUrl;
-  // URL Cloudinary untuk foto diri
 
   @Column(length = 512)
   private String fotoKtpUrl;
-  // URL Cloudinary untuk foto KTP
 
   @ManyToOne
   @JoinColumn(name = "invite_code_id", nullable = false)
   private AdminInviteCode adminInviteCode;
-  // Relasi ke kode undangan yang dipakai (wajib)
 
   private boolean isEmailVerified = false;
-  // Status verifikasi email
 
   private boolean isActive = true;
-  // Status aktif akun
 
   private LocalDateTime createdAt = LocalDateTime.now();
-  // Waktu registrasi
 
   private LocalDateTime updatedAt = LocalDateTime.now();
-  // Waktu update terakhir
-
-  // Getter & Setter
 
   public Long getId() {
     return id;
